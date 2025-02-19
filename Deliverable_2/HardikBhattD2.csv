@@ -1,0 +1,12 @@
+user_prompt,url_to_check,func_rating,custom_rating
+I have just been on an international flight,https://www.mayoclinic.org/healthy-lifestyle/infant-and-toddler-health/expert-answers/air-travel-with-infant/faq-20058539,3,4
+"""I recently tested positive for COVID-19. How long should I wait before traveling internationally?""",https://www.cdc.gov/coronavirus/2019-ncov/travelers/international-travel-during-covid19.html,2,2
+"""At what age should my baby get their first set of vaccinations?""",https://www.who.int/news-room/questions-and-answers/item/immunization,2,3
+"""What are some recommended foods for managing type 2 diabetes?""",https://www.diabetes.org/healthy-living/recipes-nutrition,2,4
+"""Can I bring a carry-on suitcase and a personal item on a Delta flight?""",https://www.delta.com/us/en/baggage/overview,2,2
+"""What are some common behavioral interview questions and how should I answer them?""",https://www.thebalancemoney.com/top-behavioral-interview-questions-2059613,2,5
+"""Is it safe to do strength training exercises during pregnancy?""",https://www.acog.org/womens-health/faqs/exercise-during-pregnancy,2,3
+"""What are the common side effects of taking ibuprofen?""",https://www.mayoclinic.org/drugs-supplements/ibuprofen-oral-route/side-effects/drg-20070602,2,3
+"""What are the requirements for applying for a student visa in Canada?""",https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html,2,4
+"""What are the steps to getting approved for a mortgage?""",https://www.consumerfinance.gov/owning-a-home/mortgage-estimate/,2,2
+"""What are the best beginner-friendly resources for learning Python programming?""",https://realpython.com/python-beginner-tips/,2,3
