@@ -1,11 +1,22 @@
 # Hardik Bhatt
 
+ #Question 1 Answer
  @bhatthardik4 ➜ /workspaces/AlgorithmDS (main) $ git clone https://github.com/microsoft/tinytroupe
+
+
  @bhatthardik4 ➜ /workspaces/AlgorithmDS (main) $ cd tinytroupe
+
+
  @bhatthardik4 ➜ /workspaces/AlgorithmDS/tinytroupe (main) $ pip install .
+
+
  @bhatthardik4 ➜ /workspaces/AlgorithmDS/tinytroupe (main) $ export OPENAI_API_KEY="my_api_key_Hardik"
+
+
  >>> lisa_ds = create_lisa_the_data_scientist()
 >>> lisa_ds.listen_and_act("Tell me about your life.")
+
+
 USER --> Lisa Carter: [CONVERSATION] 
           > Tell me about your life.
 Lisa Carter acts: [THINK] 
@@ -20,20 +31,19 @@ Lisa Carter acts: [TALK]
                  > enhance search results. In my free time, I enjoy cooking, playing the piano, and
                  > watching movies, especially comedies and thrillers.
 Lisa Carter acts: [DONE] 
+
+
 >>> from tinytroupe.agent import TinyPerson
+
+
 >>> hardik = TinyPerson("Hardik")
->>> yiqiao.define("age", 28)
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-NameError: name 'yiqiao' is not defined
 >>> hardik.define("age", 28)
 >>> hardik.define("nationality", "Indian")
->>> yiqiao.define("occupation", "He is a student in a university.")
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-NameError: name 'yiqiao' is not defined
 >>> hardik.define("occupation", "He is a student in a university.")
+
+
 >>> hardik.listen_and_act("Tell me about yourself.")
+
 USER --> Hardik: [CONVERSATION] 
           > Tell me about yourself.
 Hardik acts: [THINK] 
@@ -46,19 +56,31 @@ Hardik acts: [TALK]
 Hardik acts: [DONE] 
 
 >>> from tinytroupe.agent import TinyPerson
+
+
 >>> terry = TinyPerson("Terry")
 >>> terry.define("age", 24) 
 >>> terry.define("nationality", "American")
 >>> terry.define("occupation", "He is a librarian in a university.")
->>> 
+
+
 >>> from tinytroupe.environment import TinyWorld
+
+
 >>> world = TinyWorld("Classroom", [hardik, terry])
 >>> world.make_everyone_accessible()
+
+
 >>> hardik.listen("I want to keep some books for an extended period")
+
+
 USER --> Hardik: [CONVERSATION] 
           > I want to keep some books for an extended period
 TinyPerson(name='Hardik')
+
 >>> world.run(3)
+
+
 Hardik acts: [THINK] 
             > The person wants to keep some books for a long time. I should ask them why they want
             > to do that and if they need any help with it.
@@ -141,3 +163,8 @@ Terry --> Hardik: [CONVERSATION]
            > commentary as well. Austen's characters are so well-developed and relatable. It's
            > interesting how both books explore personal journeys in different ways. Do you have a
            > favorite character from either of those books?
+
+
+
+
+Comments: According to me, I approve it as the conversation feels like 2 humans are talking about extending the period of keeping the books and their conversation gets more interesting with the topic and content of the book and it characters.
